@@ -1,0 +1,19 @@
+{
+  "name": "chat-mongodb-mysql",
+  "version": "1.0.0",
+  "description": "chat com mongodb mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Vinicius",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
