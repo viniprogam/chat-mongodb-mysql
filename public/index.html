@@ -39,11 +39,10 @@
 
         </div>
 
-        <script src="/socket.io/socket.io.js"></script>
 
         <script>
 
-            /* Conecta o docketIO da aplicação web frontend com o socketIO da aplicação backend nodeJS: */
+            /* Conecta o socketIO da aplicação web frontend com o socketIO da aplicação backend nodeJS: */
             const socket = io('http://localhost:3000');
 
             /* Funçao que formata o HTML para exbir as mensagens enviadas na tela (manipula o div de class messages - linha 26): */
